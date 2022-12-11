@@ -1,0 +1,21 @@
+body{
+    background-color: #000000;
+    margin: 0 0 0 0;
+}
+
+/*class selector*/
+.background{
+    /* background-color: #5200FF; */
+    background-image: linear-gradient(180deg,#5200FF, #000000);
+    height: 450px;
+    margin: 0 0 0 0;
+    padding-top: 10px;
+}
+
+.navbar{
+    background-color: #FFFFFF;
+    border-radius:  7px;
+    height: 50px;
+    margin: 0 10px 10px 10px;
+    opacity: 0.55;
+}
