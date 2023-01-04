@@ -2,14 +2,25 @@ body{
     background-color: black;
 }
 
-#introtext1{
+.button{
     color: white;
+}
+.introtext1{
+    color: white;
+    display: inline;
     font-size: 75px;
-    position: relative;
+    position: absolute;
+    top: 220px;
+    left: 380px;
+    margin: 0 0 0 0;
 }
 
-#introtext2{
+.introtext2{
     color: white;
     font-size: 80px;
+    display: inline;
     margin: 0 0 0 0;
+    position: absolute;
+    top: 290px;
+    left: 500px;
 }
