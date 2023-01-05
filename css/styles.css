@@ -9,67 +9,8 @@ img{
     width: 200px;
 }
 
-#a{
-    left: 1210px;
-}
-
-#b{
-    left: 1090px;
-}
-
-#c{
-    left: 990px;
-}
-
-.button{
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-weight: lighter;
-    display: inline;
-    position: absolute;
-    left: 20px;
-}
-.introtext1{
-    color: white;
-    display: inline;
-    font-size: 75px;
-    font-family: 'Playfair Display', serif;
-    position: absolute;
-    top: 220px;
-    left: 380px;
-    margin: 0 0 0 0;
-}
-
-.introtext2{
-    color: white;
-    font-size: 80px;
-    font-family: 'Playfair Display', serif;
-    display: inline;
-    margin: 0 0 0 0;
-    position: absolute;
-    top: 290px;
-    left: 500px;
-}
-
-.desc{
-    color: white;
-    font-family: 'Playfair Display', serif;
-    /* display: inline; */
-    position: relative;
-    text-align: center;
-    top: 550px;
-
-}
-
-
-.landing{
-    border: 5px;
-    border-color: bisque;
-    position: absolute;
-    top: 160px;
-    left: 550px;
-}
-
-/* 2397 x 3575 */
-/* 3531 x 4414 */
-
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
