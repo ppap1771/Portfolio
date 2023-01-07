@@ -1,17 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Roboto+Mono&display=swap');
+@font-face {
+    font-family: glitten;
+    src: url("../assets/fonts/GLITTEN\ ALL\ CAPS.ttf");/* IE */
+    src: local('glitten'), url('../assets/fonts/GLITTEN\ ALL\ CAPS.ttf') format('truetype');/* others */
+}
+
+@font-face {
+    font-family: megante;
+    src: url("../assets/fonts/Meganté-Personal-Use.ttf");/* IE */
+    src: local('megante'), url('../assets/fonts/Meganté-Personal-Use.ttf') format('truetype');/* others */
+}
 
 body{
+    margin: 0 0 0 0;
+    padding-top: 15px;
     background-color: black;
 }
 
 a{
     text-decoration: none;
     color: white;
+    font-family: 'glitten';
+    font-size: 40px;
 }
 
 a:visited{
     text-decoration: none;
     color: white;
+    font-family: 'glitten';
+    font-size: 40px;
 }
 
 ul{
@@ -19,6 +35,61 @@ ul{
     color: white;
 }
 
-.navbar-wrapper{
+li{
+    display: inline;
+    margin: 15px;
+}
 
+p{
+    color: white;
+}
+
+.introtext{
+    position: relative;
+    /* top: 200px; */
+    bottom: 185px;
+    text-align: center;
+    font-size: 75px;
+    margin: auto;
+    width: 90%;
+}
+
+.landing-img {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    /* z-index: -50; */
+    display: block;
+    margin: auto;
+    top: 40px;
+}
+
+.navele{
+    font-size: 25px;
+}
+
+#logo{
+    margin-left: 25px;
+}
+
+#navbar{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+#intro1{
+    text-align: left;
+    margin: 0 0 0 0;
+    /* transform: translate(-50%, -50%); */
+    /* bottom: 100px; */
+}
+
+#im1{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 100px;
+    height: 400px;
+    width: 300px;
 }
