@@ -45,6 +45,14 @@ p{
     color: white;
 }
 
+/* .ellipse{
+    display: flex;
+    position: relative;
+    height: 350px;
+    width: 350px;
+    
+} */
+
 .introtext{
     position: relative;
     top: 220px;
