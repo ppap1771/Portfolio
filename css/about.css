@@ -1,0 +1,25 @@
+@font-face {
+    font-family: glitten;
+    src: url("../assets/fonts/GLITTEN\ ALL\ CAPS.ttf");/* IE */
+    src: local('glitten'), url('../assets/fonts/GLITTEN\ ALL\ CAPS.ttf') format('truetype');/* others */
+}
+
+@font-face {
+    font-family: megante;
+    src: url("../assets/fonts/Meganté-Personal-Use.ttf");/* IE */
+    src: local('megante'), url('../assets/fonts/Meganté-Personal-Use.ttf') format('truetype');/* others */
+}
+
+h1{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    font-family: 'glitten';
+    font-size: 40px;
+    display: inline;
+}
+
+.about{
+    color: white;
+    height: 100vh;
+}
