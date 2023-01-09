@@ -9,6 +9,13 @@
     src: url("../assets/fonts/Meganté-Personal-Use.ttf");/* IE */
     src: local('megante'), url('../assets/fonts/Meganté-Personal-Use.ttf') format('truetype');/* others */
 }
+* { 
+    /* outline: 1px solid red;
+    outline-offset: -1px; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 body{
     margin: 0 0 0 0;
