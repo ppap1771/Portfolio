@@ -1,106 +1,97 @@
 @font-face {
     font-family: glitten;
-    src: url("../assets/fonts/GLITTEN\ ALL\ CAPS.ttf");/* IE */
-    src: local('glitten'), url('../assets/fonts/GLITTEN\ ALL\ CAPS.ttf') format('truetype');/* others */
+    src: url("../assets/fonts/GLITTEN\ ALL\ CAPS.ttf");
+    /* IE */
+    src: local('glitten'), url('../assets/fonts/GLITTEN\ ALL\ CAPS.ttf') format('truetype');
+    /* others */
 }
 
 @font-face {
     font-family: megante;
-    src: url("../assets/fonts/Meganté-Personal-Use.ttf");/* IE */
-    src: local('megante'), url('../assets/fonts/Meganté-Personal-Use.ttf') format('truetype');/* others */
+    src: url("../assets/fonts/Meganté-Personal-Use.ttf");
+    /* IE */
+    src: local('megante'), url('../assets/fonts/Meganté-Personal-Use.ttf') format('truetype');
+    /* others */
 }
-* { 
+
+* {
     /* outline: 1px solid red;
     outline-offset: -1px; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  html {
+html {
     overflow: scroll;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    /* scroll-snap-type: proximity;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y proximity; */
 }
+
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
 }
+
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
 
-body{
+body {
     margin: 0 0 0 0;
-    /* padding-top: 15px; */
     background-color: black;
-    /* height: 100vh;
-    overflow: hidden; */
+    height: 100vh;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     font-family: 'glitten';
     font-size: 40px;
 }
 
-a:visited{
+a:visited {
     text-decoration: none;
     color: white;
     font-family: 'glitten';
     font-size: 40px;
 }
 
-ul{
+ul {
     list-style: none;
     color: white;
 }
 
-li{
+li {
     display: inline;
     margin: 15px;
 }
 
-nav{
+nav {
     padding-top: 15px;
 }
 
-p{
+p {
     color: white;
 }
 
-/* .ellipse{
-    display: flex;
-    position: relative;
-    height: 350px;
-    width: 350px;
-    
-} */
-
-.landing{
+.landing {
     height: 100vh;
-    /* overflow: scroll;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start; */
 }
 
-.introtext{
+.introtext {
     position: relative;
     top: 220px;
-    /* bottom: 185px; */
     text-align: center;
     font-size: 75px;
     margin: auto;
     width: 50%;
 }
 
-.navele{
+.navele {
     font-size: 25px;
     font-family: 'glitten';
     text-align: center;
@@ -108,7 +99,7 @@ p{
     margin: auto;
 }
 
-.info{
+.info {
     position: absolute;
     bottom: 10px;
     width: 100%;
@@ -116,27 +107,26 @@ p{
     text-align: center;
 }
 
-#logo{
+#logo {
     margin-left: 25px;
 }
 
-#navbar{
+#navbar {
     float: right;
     margin-top: 0px;
     margin-right: 30px;
 }
 
-#intro1{
+#intro1 {
     text-align: center;
     margin: 0 0 0 0;
 }
 
-#intro2{
+#intro2 {
     display: inline-block;
     position: relative;
+    font-family: 'glitten';
     margin: 0 0 0 0;
     text-align: center;
     font-size: 20px;
-    /* justify-content: baseline; */
-    /* bottom: 10px; */
 }

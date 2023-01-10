@@ -23,3 +23,21 @@ h1{
     color: white;
     height: 100vh;
 }
+
+.about-text{
+    /* background-color: white;
+    opacity: 0.4; */
+    border: solid;
+    font-size: 22px;
+    font-family: 'glitten';
+    border-width: 1.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-color: white;
+    width: 30%;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
