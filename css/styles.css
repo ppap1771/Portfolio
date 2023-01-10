@@ -72,6 +72,10 @@ li {
 
 nav {
     padding-top: 15px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
 }
 
 p {
@@ -100,9 +104,9 @@ p {
 }
 
 .info {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
+    position: relative;
+    top: 55vh;
+    width: 40%;
     margin: auto;
     text-align: center;
 }

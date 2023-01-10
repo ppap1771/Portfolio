@@ -10,14 +10,14 @@
     src: local('megante'), url('../assets/fonts/Meganté-Personal-Use.ttf') format('truetype');/* others */
 }
 
-h1{
+/* h1{
     position: relative;
-    top: 30px;
-    left: 60px;
+    top: 70px;
+    left: 20px;
     font-family: 'glitten';
     font-size: 40px;
     display: inline;
-}
+} */
 
 .about{
     color: white;
@@ -38,6 +38,6 @@ h1{
     border-color: white;
     width: 30%;
     position: relative;
-    left: 60px;
-    top: 50px;
+    left: 20px;
+    top: 90px;
 }
