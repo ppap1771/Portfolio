@@ -10,6 +10,11 @@
     src: local('megante'), url('../assets/fonts/Meganté-Personal-Use.ttf') format('truetype');/* others */
 }
 
+#ed1{
+    font-family: 'glitten';
+    font-size: 25px;
+}
+
 /* h1{
     position: relative;
     top: 70px;
@@ -28,7 +33,7 @@
     /* background-color: white;
     opacity: 0.4; */
     border: solid;
-    font-size: 22px;
+    font-size: 25px;
     font-family: 'glitten';
     border-width: 1.5px;
     padding-left: 20px;
@@ -36,8 +41,22 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-color: white;
-    width: 30%;
+    width: 50%;
     position: relative;
     left: 20px;
     top: 90px;
+}
+
+.education{
+    width: 45%;
+    float: right;
+    position: relative;
+    right: 25px;
+    border-width: 0.5px;
+    border: solid;
+    border-color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: -21vh;
 }
