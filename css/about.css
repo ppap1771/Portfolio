@@ -25,13 +25,17 @@
 } */
 
 .about{
-    color: white;
+    /* top: 10vh; */
     height: 100vh;
+    width: 100%;
 }
 
 .about-text{
     /* background-color: white;
     opacity: 0.4; */
+    position: relative;
+    float: left;
+    color: white;
     border: solid;
     font-size: 25px;
     font-family: 'glitten';
@@ -42,21 +46,20 @@
     padding-bottom: 20px;
     border-color: white;
     width: 50%;
-    position: relative;
     left: 20px;
     top: 90px;
 }
 
 .education{
+    position: relative;
     width: 45%;
     float: right;
-    position: relative;
+    top: 10vh;
     right: 25px;
-    border-width: 0.5px;
     border: solid;
+    border-width: 1px;
     border-color: white;
     padding-left: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
-    top: -21vh;
+    padding-bottom: 10px;
 }
