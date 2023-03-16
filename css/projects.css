@@ -1,0 +1,16 @@
+@font-face {
+    font-family: glitten;
+    src: url("../assets/fonts/GLITTEN\ ALL\ CAPS.ttf");/* IE */
+    src: local('glitten'), url('../assets/fonts/GLITTEN\ ALL\ CAPS.ttf') format('truetype');/* others */
+}
+
+@font-face {
+    font-family: megante;
+    src: url("../assets/fonts/Meganté-Personal-Use.ttf");/* IE */
+    src: local('megante'), url('../assets/fonts/Meganté-Personal-Use.ttf') format('truetype');/* others */
+}
+
+.project{
+    height: 100vh;
+    
+}

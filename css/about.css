@@ -11,8 +11,10 @@
 }
 
 #ed1{
+    padding-top: 10px;
     font-family: 'glitten';
     font-size: 25px;
+    margin-right: 10px;
 }
 
 /* h1{
@@ -37,13 +39,14 @@
     float: left;
     color: white;
     border: solid;
-    font-size: 25px;
+    font-size: 1.7vw;
     font-family: 'glitten';
     border-width: 1.5px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: auto;
     border-color: white;
     width: 50%;
     left: 20px;
@@ -62,4 +65,5 @@
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
+    font-size: 1.5vw;
 }
